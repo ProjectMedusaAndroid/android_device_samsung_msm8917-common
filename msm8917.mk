@@ -13,6 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+
+#Hardware 
+PRODUCT_BOARD_PLATFORM := $(msm8917)
+ PRODUCT_USES_QCOM_HARDWARE := true
+ 
+ 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
